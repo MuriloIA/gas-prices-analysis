@@ -1,16 +1,22 @@
-#########################################################################
-# -= PACOTES UTILIZADOS =- #
+#######################################################################################
+# -= PACOTES UTILIZADOS =-
 
-# Carga, manipulação e operações com matrizes de dados
+# Manipulação e operações com matrizes de dados
+import numpy as np
 import pandas as pd
 
-# Layout do Dashboard
+# Construção de gráficos
+import plotly.express as px
+import plotly.graph_objects as go
+
+# Ferramentas para a construção do Dashboard
 import dash
 import dash_bootstrap_components as dbc
 from dash import Dash, html, dcc, Input, Output
+from dash_bootstrap_templates import ThemeSwitchAIO
 
 
-#########################################################################
+#######################################################################################
 # -= LAYOUT DO DASHBOARD =- #
 
 # Instanciando o Dash
